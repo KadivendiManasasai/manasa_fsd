@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="internal.css" rel="stylesheet"/>
+    <script src="internal.js" defer></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h2>Get Everything</h2>
+            <nav class="products">
+                <a>Mobiles</a>
+                <a>Laptops</a>
+                <a>Furniture</a>
+            </nav>
+            <div  onclick="display()">
+                <span class="material-icons">
+                    shopping_cart
+                 </span>
+                    <p class="notify" id="notify">0</p>
+            
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <h1>Products</h1>
+       
+        
+        <div class="maindiv">
+            
+            
+                <div id="card">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSppgUP1ihYy-JZNcBQIMGKAYrOh39VD4RAiHedH-mxthH6Ft-kLA8ji0kgwG7_l5-Ok-Qh1q3OmoetKK8Ej5pvBagiBEAlPrhqP9RYoodK1azxk2mjjxNWKSvTopWdAJ_4d6slPCA&usqp=CAc"/>
+                    <h2 id="name">OnePlus Nord CE4 Lite 5G </h2>
+                    <p id="price">17998</p>
+                    <button id="addtocart" onclick="addtocart()">Add to cart</button>
+                </div>
+
+                <div id="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRvBDq7FPWMAO6vNfwIcD3VnnEzSfRacu41uTSrwTjkNbkpLAenrJ-WQqbdLpsKLg4W8mr5q7bS1ghy0JcW-6ShcuZLHvank5mJD8UkoCDTqztMmsU-e3Nlflv-sqxPmQKYZmWbq3nRbg&usqp=CAc"/>
+                    <h2 id="name">Samsung Galaxy S23 Ultra 5G AI Smartphone </h2>
+                    <p id="price">71999</p>
+                    <button id="addtocart" onclick="addtocart()">Add to cart</button>
+                </div>
+            
+
+            
+                <div id="card">
+                    <img src="https://www.oldlappy.com/926-large_default/hp-probook-640g3-a-grade-business-class-light-weight.jpg"/>
+                    <h2 id="name">Hp ProBook 640G3 A++ Grade Business Class Light Weight</h2>
+                    <p id="price">18500</p>
+                    <button id="addtocart" onclick="addtocart()">Add to cart</button>
+                </div>
+                <div id="card">
+                    <img src="https://m.media-amazon.com/images/I/51DxiTCVEGL._SX679_.jpg"/>
+                    <h2 id="name">DELL Latitude 5490 Core i5 8th Gen Laptop</h2>
+                    <p id="price">15726</p>
+                    <button id="addtocart" onclick="addtocart()">Add to cart</button>
+                </div>
+          
+
+            
+                <div id="card">
+                    <img src="https://thewoodenmart.com/cdn/shop/products/Woodenjhula_1_1024x1024@2x.jpg?v=1633335240"/>
+                    <h2 id="name">Wooden Swing</h2>
+                    <p id="price">15999</p>
+                    <button id="addtocart" onclick="addtocart()">Add to cart</button>
+                </div>
+                <div id="card">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSXwMtAVbuRTDFf6jw6YfJzx1O3cAi1as6r59p0n5zR0zg24Q2aS9DDgD_yHg_2rKNs9Ad84g1isJixK55UdhccQuw84lkLygC2dtW7PDk&usqp=CAc"/>
+                    <h2 id="name">Sabie Upholstered Bed Cot-Queen</h2>
+                    <p id="price">156960</p>
+                    <button id="addtocart" onclick="addtocart()">Add to cart</button>
+                </div>
+            
+        </div>
+    
+
+    
+        <div id="displayCart">
+            <!--dynamically data gets added-->
+            <div class="carthead">
+                <button id="close" onclick="close()">Close</button>
+                <p id="total">Total: </p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

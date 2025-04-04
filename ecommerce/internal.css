@@ -1,0 +1,183 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    
+}
+.header{
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px;
+    font-size:25px;
+    position:fixed;
+    z-index: 1000;
+    width:100%;
+ 
+}
+.products a{
+  margin:50px;
+  font-size:25px;
+  cursor:pointer;
+  
+}
+
+
+.notify{
+    width:20px;
+    height:20px;
+    background-color: orange;
+    font-size: 17px;
+    border-radius:50px;
+    text-align:center;
+    position:relative;
+    margin-top:-45px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+
+
+
+main h1{
+    text-align: center;
+    font-size:60px;
+    padding-top:100px;
+    
+}
+.maindiv{
+    border:2px solid black;
+    margin:50px 50px;
+    display:grid;
+    grid-template-columns:30% 30% 30%;
+    gap:30px;
+    padding-left:60px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    
+}
+
+#card{
+    width:300px;
+    max-height:500px;
+    border:1px solid black;
+    text-align: center;
+    border-radius:10px;
+    background-color: azure;
+    transition:width box-shadow 0.3s ease-out ;
+}
+#card:hover{
+    box-shadow: -8px 8px 10px rgba(0,0,0,0.3);
+    width:320px;
+    
+}
+.maindiv #card img{
+width:300px;
+height:250px;
+padding:20px;
+margin-top:10px;
+
+}
+#card p{
+    color:green;
+    font-size:20px;
+   
+}
+#card h2{
+    font-size:20px;
+    padding:10px;
+}
+#card button{
+    background-color: orange;
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    margin:20px;
+    font-size:18px;
+    cursor:pointer;
+   
+}
+#card button:hover{
+    background-color:green;
+}
+
+
+/* css for dynamically entered values*/
+#total{
+    font-size:30px;
+    font-weight:bold;
+    padding:20px 50px;
+    text-align:right;
+}
+#displayCart{
+    visibility:hidden;
+    width:600px;
+    margin:auto;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: -8px 8px 10px rgba(0,0,0,0.3);
+    backdrop-filter: blur(50px);
+    margin-bottom:20px;
+
+}
+.div-cart{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#price{
+    font-size:20px;
+    color:green;
+    margin-top:20px;
+}
+#name{
+    font-size:20px;
+    width:200px;
+}
+
+.divquantity button{
+    margin:10px;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    background-color: orange;
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+}
+.div-cart button{
+    background-color: orange;
+    color:white;
+    padding:20px;
+    border:none;
+    border-radius:5px;
+    height:50px;
+    font-size:15px;
+}
+
+
+.carthead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+.carthead button{
+    background-color: orange;
+    font-size: 20px;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    padding:10px;
+    margin-left:20px;
+}
+.carthead button:hover{
+    background-color: red;
+}
