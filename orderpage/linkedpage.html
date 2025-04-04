@@ -1,0 +1,59 @@
+<html>
+<head>
+</head>
+<body>
+	<p> Welcome to clothing store <a href="htmltask.html">Home</a> <a href="linkedpage.html">Order</a> </p>
+	<h2>Please order here to enter dress code</h2>
+	<h3> Fillout the form below and click Submit to order</h3>
+	<table>
+		<tr>
+		<th> Color </th>
+		<th> Price </th></tr>
+		<tr> 
+		<td>gray </td>
+		<td> 999</td></tr>
+		<tr>
+		<td>white </td>
+		<td> 1088 </td> </tr>
+		<tr>
+		<td>black</td>
+		<td> 1999</td></tr> 
+	</table>
+	<lable for="size"> Choose your size: </lable>
+	<select id="size" name="tshirt">
+	<option value="small">Small</option>
+	<option value="Large">Large</option>
+	<option value="Extra large">Extra large</option>
+	</select>
+	
+	<h2> Address </h2>
+	
+	<lable for="hadd"> Home Address</lable>
+	<input type="radio" id="hadd" name="hadd" value="hadd"/><br>
+	
+	<lable for="oadd"> Office Address</lable>
+	<input type="radio" id="oadd" name="oadd" value="oadd"/>
+	
+	<h2> Number of Items Arrived by  </h2>
+	<lable for="noi"></lable>
+	<input id="noi" type="number"/><br>
+	
+	<lable for="must"> Must Arrive By </lable>
+	<input id="must" type="date" name="arrive" value="arrive"/>
+	
+	<h2> Extras </h2>
+	<lable for="gift"> Add Gift Wrap </lable>
+	<input type="checkbox" id="gift" name="wrap" value="wrap"/><br>
+	
+	<lable for="name">Name</lable>
+	<input id="name" type="text" name="name" /><br><br>
+	
+	<lable for="add">Enter Your address</lable>
+	<input id="add" type="text" name="add" />
+	
+	<lable for="cmts"> Comments for stiching</lable>
+	<textarea id="cmts" name="comment" maxlength="10" cols="10" row="10"></textarea><br>
+	
+	<input type="submit"/>
+</body>
+</html>
