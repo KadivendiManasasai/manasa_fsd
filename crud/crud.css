@@ -1,0 +1,33 @@
+body{
+    padding:0px;
+    margin:0px;
+    text-align:center;
+}
+table{
+    border-collapse:collapse;
+    margin:auto;
+    margin-top:30px;
+    width:80%;
+}
+thead,td,tbody{
+    border:1px solid black;
+    padding:10px;
+    
+}
+form input{
+    width:150px;
+    height:20px;
+    
+}
+form button{
+    width:120px;
+    height:25px;
+    background-color: rgb(30, 30, 219);
+    color:whitesmoke;
+    border:none;
+    border-radius:3px;
+    cursor:pointer;
+}
+body button:hover{
+ background-color:green;
+}
