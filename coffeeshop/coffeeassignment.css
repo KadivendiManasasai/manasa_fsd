@@ -1,0 +1,124 @@
+body{
+    background-color:antiquewhite;
+}
+
+
+.headercart{
+    background-image: url("https://media.istockphoto.com/id/934861624/photo/cup-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.jpg?s=612x612&w=0&k=20&c=hvVkZ4QBP0A6SA8ohadL1CwXftRB1ICjGtt9d9fiKl4=");
+    background-size:100% 100%;
+    height:600px;
+}
+.navigation{
+    display:flex;
+    font-size:20px;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.navigation a{
+    
+    margin-right:15px;
+    text-decoration: none;
+    color:whitesmoke;
+    cursor:pointer;
+}
+
+.navigation a:hover{
+    background-color:white;
+    color:black;
+    padding:5px;
+    border-radius:2px;
+}
+.headercart {
+    color:whitesmoke;
+    text-align:center;
+}
+.headercart h1{
+    font-size:70px;
+    padding-top:40px;
+}
+.headercart .p{
+    font-size:20px;
+    margin:30px;
+    padding:0px;
+}
+.headercart .button{
+    display:inline-block;
+    background-color:orange;
+    color:whitesmoke;
+    border-radius:5px;
+    width:100px;
+    height:30px;
+    border:none;
+    padding:5px;
+    font-size:20px;
+    cursor:pointer;
+    text-decoration: none;
+}
+ .coffeecart{
+     display:flex;
+     justify-content: space-evenly;
+}
+.coffeecart .cart{
+   max-height:500px;
+   border:1px solid black;
+   max-width:300px;
+   text-align:center;
+   cursor:pointer;
+}
+.coffeecart .cart:hover{
+    box-shadow:-10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.coffeecart .cart img{
+    width:300px;
+    height:200px;
+}
+.coffeecart .cart .cost{
+    font-size:20px;
+    font-weight:bold;
+}
+#Menu{
+    text-align:center;
+}
+.menuhead{
+    font-size:50px;
+}
+.aboutcart{
+    display:flex;
+    justify-content: space-between;
+    font-size:20px;
+    margin:20px;
+    
+}
+.aboutcart img{
+    width:500px;
+    height:250px;
+}
+#contact [type="text"]{
+    width:80%;
+    margin:5px;
+}
+ button{
+    background-color:brown;
+    border:none;
+    padding:10px;
+    color:whitesmoke;
+    border-radius:5px;
+    cursor:pointer;
+}
+button:hover{
+    background-color:rgb(100, 26, 26);
+   
+}
+footer{
+    background-color:rgb(100, 26, 26);
+    color:whitesmoke;
+    text-align:center;
+    height:15px;
+    padding:20px;
+    padding-bottom: 50px;
+
+}
+main section{
+    margin:110px;
+}
